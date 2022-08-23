@@ -18,6 +18,10 @@ th{
     /* Định dạng màu nền cho thẻ th */
     background-color: yellowgreen;
 }
+tr:nth-child(even){
+    /* Định dạng màu nền cho các dòng chẵn của bảng */
+    background-color: lightgrey;
+}
 .number{
     /* Canh lề phải cho nội dung của thẻ td với class là number */
     text-align: right;
