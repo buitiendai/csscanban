@@ -13,14 +13,22 @@ th, td{
     padding: 10px;
 }
 th{
-    /* Định dạng chiều cao cho thẻ tiêu đề th */
+    /* Định dạng chiều cao cho thẻ tiêu đề th*/
     height: 50px;
     /* Định dạng màu nền cho thẻ th */
     background-color: yellowgreen;
 }
+td{
+    /* Định dạng chiều cao cho thẻ tiêu đề td*/
+    height: 40px;
+}
 tr:nth-child(even){
     /* Định dạng màu nền cho các dòng chẵn của bảng */
     background-color: lightgrey;
+}
+.name1{
+    /* Định dạnh canh chiều dọc nội dung của cột */
+    vertical-align: bottom;
 }
 .number{
     /* Canh lề phải cho nội dung của thẻ td với class là number */
