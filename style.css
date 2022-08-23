@@ -1,0 +1,26 @@
+h1{
+   /* gán màu cho nội dung của thẻ h1 */
+    color: rgb(218, 91, 6);
+}
+table{
+    /* Tạo viền bo nét mảnh cho bảng */
+    border-collapse: collapse;
+}
+th, td{
+    /* Tạo viền bo có độ rộng 1px với thuộc tính nét kẻ liền và màu viền bo là màu đen */
+    border: 1px solid black;
+    /* Định dạng vùng đệm ngăn cách giữa nội dung và viền bo của thẻ th và thẻ td */
+    padding: 10px;
+}
+th{
+    /* Định dạng chiều cao cho thẻ tiêu đề th */
+    height: 50px;
+    /* Định dạng màu nền cho thẻ th */
+    background-color: yellowgreen;
+}
+.number{
+    /* Canh lề phải cho nội dung của thẻ td với class là number */
+    text-align: right;
+    /* Định dạng độ dài cho thẻ td có class là number */
+    width: 100px;
+}
