@@ -76,16 +76,22 @@ li{
     /* Định dạng màu chữ cho các thẻ li */
     color: black;
 }
+
+/* Định dạng cho class topcar */
 .topcar{
     /* Định dạng đánh dấu các mục của danh sách dạng chữ số la mã in hoa */
     list-style-type: upper-roman;
 }
+
+/* Định dạng cho class bigcity */
 .bigcity{
     /* Định dạng đánh dấu các mục của danh sách dạng hình vuông */
     list-style-type: square;
     /* Định dạng đánh dấu các mục của danh sách sẽ xuất hiện bên trong nội dung */
     list-style-position: inside;
 }
+
+/* Định dạng cho id destination */
 #destination{
     /* Chỉ định một hình ảnh lấy nguồn từ bên ngoài như thẻ đánh dấu các mục của danh sách */
     list-style-image: url('http://agilearn.vn/draftfile.php/263/user/draft/510120718/bullet_red%20_2.png');
